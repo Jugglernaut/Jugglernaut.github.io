@@ -1,0 +1,9 @@
+# Considering data ethics in small projects
+
+With the idea that by practicing things on a small scale with personal projects, you can become better at doing larger projects, I felt it would be a good idea to take the time to consider the ethical implications of a small project of mine. Instead of waiting for the day I'm working on some multi-million dollar project and realizing I need to get better at thinking about the consequences of feedback loops in my modeling, why not practice now with what I can?
+
+The project I've begun work on is to analyze twitch chat (an online streaming site), and evaluate if messages have positive or negative sentiment. A pretty simple task, and at first I didn't think anything problematic (in an ethical sense) could arise. Unlike movie reviews from the imdb database (or whatever I may try to apply transfer learning from), many online chats are somewhat...rude, to say the least. Although twitch chat is moderated and some words may be blacklisted, it wouldn't surprise me if some stream chats still used words like "gay" in a derogatory sense, or even more seemingly innocent words like "feminism", "woman", etc (sexism is still a rampant problem within the gaming community). 
+
+When used in these sorts of derogatory manners, my model would be right by properly classifying the chat blurb as one of negative sentiment, and while I doubt anyone would build upon my small project, what if we were to build ratings such as "average channel positivity" from the mean sentiment of the chat? There might be unfair bias against LGBT+ and female streamers, and other implications such as racial prejudice as well! 
+
+I've only just begun my project, starting to scrape twitch irc chat for text to train my model with, but as I start predictions I'll be keeping this in mind, and hope to make another post with an update of how to best address such problems if/when they occur. 
